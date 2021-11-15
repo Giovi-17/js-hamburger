@@ -5,7 +5,7 @@ const hamburgerMenu = document.querySelector(".hamburger-menu");
 const buttonHamburgerMenuClose = document.querySelector(".close")
 
 //Dichiarazione variabile Apertura Hamburger Menu
-const buttonHamburgerMenuOpen = document.getElementsByTagName("bottone");
+const buttonHamburgerMenuOpen = document.getElementById("bottone");
 
 //Apertura Hamburger Menu
 buttonHamburgerMenuOpen.addEventListener('click',
