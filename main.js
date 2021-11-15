@@ -2,7 +2,7 @@
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 
 //Dichiarazione variabile Chiusura Hamburger Menu
-const buttonHamburgerMenuClose = document.querySelector(".close")
+const buttonHamburgerMenuClose = document.querySelector(".close");
 
 //Dichiarazione variabile Apertura Hamburger Menu
 const buttonHamburgerMenuOpen = document.querySelector(".header-right > a");
