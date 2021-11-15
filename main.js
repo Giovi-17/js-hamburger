@@ -19,8 +19,8 @@ buttonHamburgerMenuOpen.addEventListener('click',
 //Chiusura Hamburger Menu
 buttonHamburgerMenuClose.addEventListener('click',
 
-function() {
-    hamburgerMenu.style.display = "none";
-}
+    function() {
+        hamburgerMenu.style.display = "none";
+    }
 
 );
