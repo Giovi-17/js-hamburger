@@ -11,7 +11,8 @@ const buttonHamburgerMenuOpen = document.querySelector(".header-right > a");
 buttonHamburgerMenuOpen.addEventListener('click',
 
     function() {
-        hamburgerMenu.style.display = "block";
+        hamburgerMenu.classList.add('active');
+
     }
 
 );
@@ -20,7 +21,7 @@ buttonHamburgerMenuOpen.addEventListener('click',
 buttonHamburgerMenuClose.addEventListener('click',
 
     function() {
-        hamburgerMenu.style.display = "none";
+        hamburgerMenu.classList.remove('active');
     }
 
 );
